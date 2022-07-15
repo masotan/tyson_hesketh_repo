@@ -39,13 +39,11 @@ function App() {
   return (
     <BrowserRouter>
     <div className="App">
-    <motion.div animate={{ x: 100 }} initial={false}>
     <Navigation/>
     <Container className="content">
     
     <Routing/>
     </Container>
-    </motion.div>
       </div>
 </BrowserRouter>
   );
