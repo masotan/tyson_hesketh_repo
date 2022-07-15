@@ -1,0 +1,21 @@
+
+.navbarContainer {
+    margin: 10px;
+}
+
+.nav-link a {
+    color:rgb(87, 87, 87);
+    text-decoration: none;
+    padding:20px;
+
+}
+
+
+.nav-link a:hover {
+    color:rgb(143, 142, 142);
+    text-decoration: none;
+}
+
+a.nav-link {
+    text-align: center;
+}
