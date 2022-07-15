@@ -32,8 +32,10 @@ function Navigation() {
         <Nav.Link href="#">
           <Link to="/Contact">Contact</Link>
         </Nav.Link>
-        <Nav.Item className="ms-auto">
-      <Nav.Link >Log In</Nav.Link>
+
+       
+      <Nav.Item className="ms-auto">
+        <Nav.Link target="_blank" href="https://www.instagram.com" rel="noopener noreferrer">Instagram</Nav.Link>
       </Nav.Item>
         </Nav>
         </Navbar.Collapse>
