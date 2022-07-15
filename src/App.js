@@ -10,7 +10,7 @@ import {
   Route,
 } from "react-router-dom";
 // import stylesheeets
-// import './App.css';
+import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import { motion } from "framer-motion"
