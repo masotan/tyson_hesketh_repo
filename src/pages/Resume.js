@@ -7,6 +7,7 @@ function Resume() {
     <div>
     <h1>Resume</h1>
     
+    <hr></hr>
     
     </div>
     );

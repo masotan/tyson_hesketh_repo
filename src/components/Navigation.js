@@ -14,12 +14,12 @@ function Navigation() {
 
     return(
     <div>
-    <Navbar collapseOnSelect bg="dark" variant="dark" expand="lg">
+    <Navbar collapseOnSelect  bg="dark" variant="dark" expand="lg">
       <Container className="navbarContainer">
       <Link to="/"><Navbar.Brand>Tyson Hesketh</Navbar.Brand></Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav>
+        <Nav className="container-fluid">
         <Nav.Link href="#">
           <Link to="/">Home</Link>
         </Nav.Link>
@@ -32,6 +32,9 @@ function Navigation() {
         <Nav.Link href="#">
           <Link to="/Contact">Contact</Link>
         </Nav.Link>
+        <Nav.Item className="ms-auto">
+      <Nav.Link >Log In</Nav.Link>
+      </Nav.Item>
         </Nav>
         </Navbar.Collapse>
       </Container>

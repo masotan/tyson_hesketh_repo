@@ -1,6 +1,14 @@
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+    margin: 0 0 0 0;
+}
 
 .navbarContainer {
-    margin: 10px;
+    margin: 10px auto 10px auto;
+    text-align: center;
+}
+
+.navbarContainer a {
+    text-decoration:none;
 }
 
 .nav-link a {
@@ -14,6 +22,10 @@
 .nav-link a:hover {
     color:rgb(143, 142, 142);
     text-decoration: none;
+}
+
+.ms-auto.nav-item a.nav-link {
+    color:white;
 }
 
 a.nav-link {
