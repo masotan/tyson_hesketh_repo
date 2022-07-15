@@ -1,0 +1,14 @@
+.carousel.slide.carousel-fade {
+    margin:3em 0;
+}
+
+.carousel-inner {
+    height:500px;
+}
+
+
+.carousel-item img {
+    height:500px;
+    text-align: center;
+    margin: auto;
+}

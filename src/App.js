@@ -13,6 +13,7 @@ import {
 // import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
+import { motion } from "framer-motion"
 // import navigation bar component from bootstrap
 import Navigation from './components/Navigation.js'
 // end of the import section
@@ -38,11 +39,13 @@ function App() {
   return (
     <BrowserRouter>
     <div className="App">
+    <motion.div animate={{ x: 100 }} initial={false}>
     <Navigation/>
     <Container className="content">
+    
     <Routing/>
     </Container>
-
+    </motion.div>
       </div>
 </BrowserRouter>
   );

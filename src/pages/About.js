@@ -1,6 +1,8 @@
 import {  Outlet, Link } from "react-router-dom";
 import React from 'react';
 import '../App.css'
+import { motion, AnimatePresence } from "framer-motion"
+
 function Header() {
     return(
         <>
@@ -8,7 +10,6 @@ function Header() {
         </>
     );
 }
-
 
 
 export default function About() {

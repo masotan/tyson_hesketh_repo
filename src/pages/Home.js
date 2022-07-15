@@ -1,5 +1,6 @@
 import React from 'react';
 import Alert from 'react-bootstrap/Alert';
+import CarouselFade from '../components/CarouselFade'
 
 function Home() {
 
@@ -8,6 +9,7 @@ function Home() {
     <div>
     <h1>Home</h1>
     <hr></hr>
+    <CarouselFade/>
     <p>Lorem ipsum dolor sit amet, magna falli his an, alii fugit an vel. Ei noluisse principes eum, rebum petentium vis te, ad eligendi pertinax evertitur vim. Te usu dolor erroribus conceptam. Pro an omnium volumus.
 
 Vel ut eros posse salutatus, tollit minimum similique nam ad. Ne has duis euismod, eos apeirian persecuti eu, ius aliquid nonumes cu. Suas soluta expetenda ei pri. Ei eros consetetur voluptatibus eam. Eos et aeterno mandamus, quo ea altera numquam conclusionemque, enim accusamus in nec. Te vix nisl alienum, eu eum illum graecis dignissim. Stet debitis eu pri, usu et nostrum adipisci platonem, no regione volutpat ius.
