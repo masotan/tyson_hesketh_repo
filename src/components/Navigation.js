@@ -35,7 +35,7 @@ function Navigation() {
 
        
       <Nav.Item className="ms-auto">
-        <Nav.Link target="_blank" href="https://www.instagram.com" rel="noopener noreferrer">Instagram</Nav.Link>
+        <Nav.Link target="_blank" href="https://www.instagram.com/tyson092/" rel="noopener noreferrer">Instagram</Nav.Link>
       </Nav.Item>
         </Nav>
         </Navbar.Collapse>

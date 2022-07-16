@@ -3,12 +3,20 @@
 }
 
 .carousel-inner {
-    height:500px;
+    margin:auto;
+    padding:auto;
+    height: 50vh;
+
+}
+
+.carousel-indicators {
+    margin: auto;
+    padding: auto;
+    top: 80%;
 }
 
 
 .carousel-item img {
-    height:500px;
     text-align: center;
     margin: auto;
 }

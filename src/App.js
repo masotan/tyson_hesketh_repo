@@ -44,6 +44,14 @@ function App() {
     
     <Routing/>
     </Container>
+    <div className="footer">
+      <Container>
+
+<h1>Contact Me</h1>
+
+</Container>
+</div>
+
       </div>
 </BrowserRouter>
   );
