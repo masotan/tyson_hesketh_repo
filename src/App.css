@@ -1,12 +1,17 @@
 .content.container {
+    position:relative;
     margin: 4em auto;
+    min-height: 100vh;
 }
 
 .footer {
     background-color: rgb(0, 0, 0);
     height:50vh;
     margin:auto;
-    padding:auto
+    padding:auto;
+    position: relative;
+    bottom:0;
+    width:100%
 }
 
 
