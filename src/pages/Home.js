@@ -1,12 +1,19 @@
 import React from 'react';
-import Alert from 'react-bootstrap/Alert';
-import CarouselFade from '../components/CarouselFade'
+import CarouselFade from '../components/CarouselFade';
+import { motion, AnimatePresence } from "framer-motion";
 
 function Home() {
 
 
     return(
     <div>
+    <motion.div initial={{
+      opacity:0
+    }}
+    animate={{
+      opacity:1
+    }}
+    >
     <h1>Home</h1>
     <hr></hr>
     <CarouselFade/>
@@ -21,7 +28,7 @@ Euismod qualisque scripserit cum et. His cu epicurei sadipscing omittantur, prae
 Tibique vituperatoribus qui cu. Habeo rationibus eam ei, nibh tamquam denique ea has. Ne duo ludus graeci, duo constituto intellegam ea, cu idque noster vix. Quo no dolore dissentiunt.</p>
     
     
-    
+    </motion.div>
     </div>
     );
     

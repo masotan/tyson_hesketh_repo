@@ -1,7 +1,7 @@
 import {  Outlet, Link } from "react-router-dom";
 import React from 'react';
-import '../App.css'
-import { motion, AnimatePresence } from "framer-motion"
+import '../App.css';
+import { motion, AnimatePresence } from "framer-motion";
 
 function Header() {
     return(
@@ -15,6 +15,13 @@ function Header() {
 export default function About() {
     return(
         <>
+        <motion.div initial={{
+      opacity:0
+    }}
+    animate={{
+      opacity:1
+    }}
+    >
         <Header/>
         <hr></hr>
         <p>Lorem ipsum dolor sit amet, vel unum aeque eu, ex assum saperet vel, est ad prompta deleniti intellegam. Nisl placerat principes cu vis, mel debet nobis ad. Equidem aliquando an sed, mea at eros petentium. Veniam percipit probatus at his. Commune ancillae salutatus sit ea, omnes elaboraret in sit. Pericula consequat signiferumque vim no.
@@ -36,7 +43,9 @@ At nisl semper eleifend pro. Facilisis sententiae sed ad, eos suscipit prodesset
 Etiam laudem salutatus cu est, congue nostrum apeirian id sed. Mea dolorem conceptam at. Eu mel iuvaret officiis, eos solum inani eu, mutat dolorum vix cu. Habeo debet quo at, ne equidem docendi minimum usu. Impetus bonorum ad mei, tincidunt definitionem cu ius. Sapientem salutandi in sit, debet putant animal et quo, pro eu mollis audiam. Sea nulla lucilius eleifend an.
 
 Id maiorum interesset has, at usu inani appetere. No per alia adolescens referrentur, ut vel alii inciderint, has vero sanctus omittam ut. Vim eu hinc nullam ullamcorper. Postea liberavisse eum at, periculis cotidieque vis cu, illum altera mucius pri ei. Tale referrentur in vim, et antiopam constituam nam. Audire nostrum concludaturque id pri, sale oporteat ne ius.</p>
+</motion.div>
         </>
+        
     );
 
 }

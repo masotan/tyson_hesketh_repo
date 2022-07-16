@@ -13,10 +13,11 @@ import {
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
-import { motion } from "framer-motion"
 // import navigation bar component from bootstrap
-import Navigation from './components/Navigation.js'
+import Navigation from './components/Navigation.js';
 // end of the import section
+
+import { motion } from "framer-motion";
 
 
 function Routing() {
@@ -39,11 +40,32 @@ function App() {
   return (
     <BrowserRouter>
     <div className="App">
+    <motion.div initial={{
+      opacity:0
+    }}
+    animate={{
+      opacity:1
+    }}
+    >
     <Navigation/>
+    </motion.div>
+
+    <motion.div initial={{
+      opacity:0
+    }}
+    animate={{
+      opacity:1
+    }}
+    >
     <Container className="content">
     
     <Routing/>
+    
     </Container>
+    </motion.div>
+
+
+
     <div className="footer">
       <Container>
 

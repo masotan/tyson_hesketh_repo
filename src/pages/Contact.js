@@ -1,10 +1,18 @@
 import React from 'react';
+import { motion, AnimatePresence } from "framer-motion";
 
 function Contact() {
 
 
     return(
     <div>
+    <motion.div initial={{
+      opacity:0
+    }}
+    animate={{
+      opacity:1
+    }}
+    >
     <h1>Contact</h1>
     <hr></hr>
     <p>Lorem ipsum dolor sit amet, ponderum disputando usu at. Qui velit docendi incorrupte ea. Eu vim minimum albucius detraxit, placerat iudicabit ex pro, aliquid dolorem adipiscing sea ad. Euismod noluisse deterruisset ne nam, ne sit tantas noster. Sint appareat appetere usu ei, probo quando sit ad.
@@ -26,7 +34,7 @@ Wisi constituam mea ut, eu impetus facilisis duo. Vel esse feugait constituam in
 Sed ut utinam efficiendi, eos debet decore ex, quo saperet postulant no. Ex facer feugiat usu. Putent consectetuer eu pro. Mel quot prodesset ex, te accusam mnesarchum quo. No vix tation commodo appetere, vix primis fuisset ne. Duo no tamquam platonem convenire, an vel augue propriae dignissim, eos in odio ullum persecuti.
 
 Singulis platonem persequeris ei sit, vix eu nullam debitis. Pro cu labore laboramus, sumo integre volutpat at nec. An eam esse feugait accusata, sed eu feugait fuisset corpora. Ius ex lorem ullamcorper, tritani senserit nec ea, ei tota oportere sit. Mea viderer molestiae scribentur ne, ut paulo iisque tincidunt sit. Nullam ceteros no vim, pro ei recteque assentior.</p>
-    
+    </motion.div>
     </div>
     );
     
