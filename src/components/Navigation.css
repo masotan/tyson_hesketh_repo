@@ -31,3 +31,7 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
 a.nav-link {
     text-align: center;
 }
+
+.ms-auto.nav-item {
+    margin:auto;
+}
