@@ -19,9 +19,6 @@ function CarouselFade() {
           alt="Second slide"
         />
 
-
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </Carousel.Item>
       <Carousel.Item>
         <img
@@ -30,10 +27,6 @@ function CarouselFade() {
           alt="Third slide"
         />
 
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
       </Carousel.Item>
     </Carousel>
   );

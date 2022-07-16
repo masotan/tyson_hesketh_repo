@@ -14,8 +14,6 @@ function Home() {
       opacity:1
     }}
     >
-    <h1>Home</h1>
-    <hr></hr>
     <CarouselFade/>
     <p>Lorem ipsum dolor sit amet, magna falli his an, alii fugit an vel. Ei noluisse principes eum, rebum petentium vis te, ad eligendi pertinax evertitur vim. Te usu dolor erroribus conceptam. Pro an omnium volumus.
 
